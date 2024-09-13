@@ -1,0 +1,21 @@
+.about-section {
+  background-image: url('../../public/aboutimage.jpg');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.about-text {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-text h2 {
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  line-height: 1.6;
+}

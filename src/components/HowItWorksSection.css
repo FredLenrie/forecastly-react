@@ -1,0 +1,7 @@
+.how-it-works-section {
+  background-image: url('../../public/commentimage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  min-height: 100vh;
+}

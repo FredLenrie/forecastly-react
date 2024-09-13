@@ -1,0 +1,15 @@
+.home-section {
+  background-color: rgb(1, 52, 82);
+  color: white;
+  min-height: 100vh;
+}
+
+.home-content {
+  display: flex;
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(1, 52, 82);
+}

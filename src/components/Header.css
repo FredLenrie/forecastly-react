@@ -1,0 +1,25 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #00a2ff;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-content .logo {
+  height: 50px;
+}
+
+.header-content nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.header-content nav ul li a {
+  color: white;
+}
