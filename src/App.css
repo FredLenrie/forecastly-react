@@ -17,6 +17,11 @@ ul {
   padding: 0;
 }
 
+/* Section Styles */
+section {
+  width: 100vw;
+}
+
 input, button, textarea {
   width: 100%;
   padding: 10px;
