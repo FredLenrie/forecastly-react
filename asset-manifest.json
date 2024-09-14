@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/forecastly-react/static/css/main.7ced1153.css",
+    "main.js": "/forecastly-react/static/js/main.92a0fee3.js",
+    "static/media/aboutimage.jpg": "/forecastly-react/static/media/aboutimage.144307a5248b95ae1585.jpg",
+    "static/media/commentimage.jpg": "/forecastly-react/static/media/commentimage.18c6d9bfa146f30bbea8.jpg",
+    "static/media/cloudimage.jpg": "/forecastly-react/static/media/cloudimage.51026841eb47cc268138.jpg",
+    "index.html": "/forecastly-react/index.html",
+    "main.7ced1153.css.map": "/forecastly-react/static/css/main.7ced1153.css.map",
+    "main.92a0fee3.js.map": "/forecastly-react/static/js/main.92a0fee3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ced1153.css",
+    "static/js/main.92a0fee3.js"
+  ]
+}
