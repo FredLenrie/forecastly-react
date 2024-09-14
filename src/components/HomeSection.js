@@ -5,10 +5,10 @@ const HomeSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    'images/image1.jpg',
-    'images/image2.jpg',
-    'images/image3.jpg',
-    'images/image4.jpg'
+    '../../public/image1.jpg',
+    '../../public/image2.jpg',
+    '../../public/image3.jpg',
+    '../../public/image4.jpg'
   ];
 
   useEffect(() => {
