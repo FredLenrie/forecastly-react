@@ -2,27 +2,32 @@ import React, { useEffect, useState } from 'react';
 import './HomeSection.css';
 
 const HomeSection = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
   const images = [
-    '../../public/image1.jpg',
-    '../../public/image2.jpg',
-    '../../public/image3.jpg',
-    '../../public/image4.jpg',
+    `${process.env.PUBLIC_URL}/image1.jpg`,
+    `${process.env.PUBLIC_URL}/image2.jpg`,
+    `${process.env.PUBLIC_URL}/image3.jpg`,
+    `${process.env.PUBLIC_URL}/image4.jpg`,
   ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentIndex(prevIndex => (prevIndex + 1) % images.length);
-    }, 5000);
-    
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000); // Change image every 5 seconds
+
+    // Cleanup the interval on component unmount
     return () => clearInterval(intervalId);
   }, [images.length]);
 
   return (
     <section id="home" className="home-section">
       <section className="image-slider">
-        <img id="slider-img" src={`${process.env.PUBLIC_URL}/image1.jpg`} alt="Weather Image" />
+      <img
+        id="slider-img"
+        src={images[currentIndex]}
+        alt={`Slide ${currentIndex + 1}`}
+      />
       </section>
 
       <section className="text-content">
