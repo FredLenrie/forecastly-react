@@ -23,3 +23,45 @@
 .header-content nav ul li a {
   color: white;
 }
+
+/* Navigation Bar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px; /* Added padding for margins on both sides */
+  background-color: #00a2ff;
+}
+
+.navbar .logo {
+  flex: 1;
+  margin-right: 20px; /* Space between the logo and the menu tabs */
+}
+
+.navbar ul {
+  display: flex;
+  flex: 2;
+  list-style: none;
+  justify-content: flex-start; /* Aligns the menu tabs to the left */
+  gap: 30px; /* Spread out the menu tabs */
+}
+
+.navbar ul li {
+  margin-right: 15px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 40px; /* Extra space on the right side */
+}
+
+.navbar ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #53767a;
+  border-radius: 5px;
+}
