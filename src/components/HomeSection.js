@@ -8,7 +8,7 @@ const HomeSection = () => {
     '../../public/image1.jpg',
     '../../public/image2.jpg',
     '../../public/image3.jpg',
-    '../../public/image4.jpg'
+    '../../public/image4.jpg',
   ];
 
   useEffect(() => {
