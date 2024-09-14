@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => (
   <header>
     <div className="header-content">
-      <img src="../../public/logo.jfif" alt="Forecatly Logo" className="logo" />
+      <img src={`${process.env.PUBLIC_URL}/logo.jfif`} alt="Forecatly Logo" className="logo"/>
       <nav className="navbar">
         <ul>
           <li><a href="#home">Home</a></li>

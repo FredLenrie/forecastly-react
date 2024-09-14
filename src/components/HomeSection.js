@@ -22,7 +22,7 @@ const HomeSection = () => {
   return (
     <section id="home" className="home-section">
       <section className="image-slider">
-        <img id="slider-img" src={images[currentIndex]} alt="Weather Image" />
+        <img id="slider-img" src="../public/image1.jpg" alt="Weather Image" />
       </section>
 
       <section className="text-content">
