@@ -19,6 +19,7 @@
   display: flex;
   font-size: xx-large;
   justify-content: center;
+  color: white;
   align-items: center;
   text-align: center;
   padding: 20px;
@@ -36,6 +37,7 @@
   font-size: x-large;
   justify-content: center;
   align-items: center;
+  color: white;
   text-align: center;
   padding: 20px;
   background-color: rgb(1, 52, 82);
