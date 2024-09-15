@@ -1,4 +1,10 @@
 .about-section {
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-image: url('../../public/aboutimage.jpg');
   background-blend-mode: overlay;
   background-size: cover;
