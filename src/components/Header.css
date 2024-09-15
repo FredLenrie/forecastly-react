@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #00a2ff;
-  color: white;
+  background-color: white;
+  color: black;
   position: fixed;
   width: 100%;
   top: 0;
@@ -21,7 +21,7 @@
 }
 
 .header-content nav ul li a {
-  color: white;
+  color: black;
 }
 
 /* Navigation Bar Styles */
@@ -30,7 +30,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 40px; /* Added padding for margins on both sides */
-  background-color: #00a2ff;
 }
 
 .navbar .logo {
@@ -55,13 +54,13 @@
 }
 
 .navbar ul li a {
-  color: rgb(255, 255, 255);
+  color: white;
   text-decoration: none;
   padding: 10px 15px;
   transition: background-color 0.3s ease;
 }
 
 .navbar ul li a:hover {
-  background-color: #53767a;
+  background-color: #00a2ff;
   border-radius: 5px;
 }
