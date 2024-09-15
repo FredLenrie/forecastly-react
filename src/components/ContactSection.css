@@ -39,3 +39,56 @@
   justify-content: center;
   align-items: center;
 }
+
+h1.header {
+  color: green;
+}
+
+input, button, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], textarea {
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+textarea {
+  height: 150px; 
+  resize: vertical; 
+}
+
+@media (max-width: 768px) {
+  .container, .usercoment {
+      width: 100%;
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+      padding: 10px;
+  }
+
+  .container, .usercoment {
+      padding: 15px;
+  }
+
+  input, button, textarea {
+      padding: 8px;
+  }
+}
