@@ -67,3 +67,29 @@
   border: none;
   color: white;
 }
+
+.image-section {
+  flex: 1;
+  justify-content: center;
+  margin-top: 0;
+}
+
+/* Style for the first image */
+.background-video {
+  margin-left: 50px;
+  height: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px; 
+  object-fit: cover;
+}
+
+/* style for the second overlapping image */
+.image-section .img-2 {
+  position: absolute;
+  bottom: -10px; /* Adjust as needed */
+  right: 50px;  /* Move left slightly */
+  width: 300px;  /* Make image bigger */
+  height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 10px solid white;
+}
