@@ -7,10 +7,10 @@ const Header = () => (
       <img src={`${process.env.PUBLIC_URL}/logo.jfif`} alt="Forecatly Logo" className="logo"/>
       <nav className="navbar">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#how-it-works">Check Weather</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#checkweather">CHECK WEATHER</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
         </ul>
       </nav>
     </div>
