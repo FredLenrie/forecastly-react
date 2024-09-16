@@ -7,6 +7,7 @@ const HomeSection = () => {
     `${process.env.PUBLIC_URL}/image2.jpg`,
     `${process.env.PUBLIC_URL}/image3.jpg`,
     `${process.env.PUBLIC_URL}/image4.jpg`,
+    `${process.env.PUBLIC_URL}/image5.jpg`,
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
