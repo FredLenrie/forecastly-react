@@ -5,9 +5,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('../../public/commentimage.jpg');
+  background-image: url('../../public/weatherimage.jpg');
   background-size: cover;
   background-position: center;
-  background-blend-mode: overlay;
+  
   min-height: 100vh;
 }
