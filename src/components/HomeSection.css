@@ -1,44 +1,28 @@
-.image-slider {
-  position: relative;
-  width: 100vw; /* Full viewport width */
-  height: 50vh; /* Half of the viewport height */
-  overflow: hidden;
-}
-
-.image-slider img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensure image covers the entire area */
-  transition: opacity 1s ease-in-out;
-}
-
-.text-content {
-  display: flex;
-  font-size: xx-large;
-  justify-content: center;
-  color: white;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  background-color: rgb(1, 52, 82); /* Optional: Background color for better readability */
-}
-
 .home-section {
-  background-color: rgb(1, 52, 82);
-  color: white;
-  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+  height: 100vh; /* Full height of the section */
+  background-color: #00a2ff;
 }
 
-.home-content {
-  display: flex;
-  font-size: x-large;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  background-color: rgb(1, 52, 82);
+.text-section { 
+  padding: 50px;
+}
+
+.text-section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.text-section h1 span {
+  color: #00a2ff;
+}
+
+.text-section p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
 }
