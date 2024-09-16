@@ -1,28 +1,57 @@
 .about-section {
-  padding-top: 20px;
-  background-color: #f4f4f4;
-  color: #333;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background: url('../../public/aboutimage.jpg') no-repeat center center/cover; /* Background Image */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  padding: 0; /* Remove any default padding */
+  margin: 0; /* Remove any default margin */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  width: 100vw; /* Full width of the section */
+  height: 100vh; /* Full height of the section */
+  gap: 10px; /* Optional: Space between columns */
+}
+
+.section-container {
+  background: rgba(0, 0, 0, 0.6); /* Dark background with transparency */
+  color: white; /* White text */
+  padding: 20px; /* Padding inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slight shadow for better focus */
+  border-radius: 10px; /* Rounded corners */
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url('../../public/aboutimage.jpg');
-  background-blend-mode: overlay;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text within each container */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
-.about-text {
-  padding: 20px;
-  text-align: center;
+.section-container h1 {
+  font-size: 1.5rem; /* Adjusted font size */
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.about-text h2 {
-  color: blue;
-  margin-bottom: 20px;
-}
-
-.about-text p {
+.section-container p, .section-container ul {
+  font-size: 0.875rem; /* Adjusted font size for readability */
+  margin-bottom: 10px;
   line-height: 1.6;
+}
+
+.section-container ul {
+  list-style-type: none; /* Removed default list styling */
+  padding: 0;
+}
+
+.section-container li {
+  margin-bottom: 8px; /* Spacing between list items */
+}
+
+.section-container li strong {
+  color: #ffd000; /* Highlighted text in list items */
 }
