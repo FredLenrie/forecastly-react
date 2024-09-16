@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/forecastly-react/static/css/main.7ced1153.css",
-    "main.js": "/forecastly-react/static/js/main.92a0fee3.js",
-    "static/media/aboutimage.jpg": "/forecastly-react/static/media/aboutimage.144307a5248b95ae1585.jpg",
-    "static/media/commentimage.jpg": "/forecastly-react/static/media/commentimage.18c6d9bfa146f30bbea8.jpg",
-    "static/media/cloudimage.jpg": "/forecastly-react/static/media/cloudimage.51026841eb47cc268138.jpg",
+    "main.css": "/forecastly-react/static/css/main.b218cb45.css",
+    "main.js": "/forecastly-react/static/js/main.653a8751.js",
+    "static/media/weatherimage.jpg": "/forecastly-react/static/media/weatherimage.a2e1e50161892d0b7a8b.jpg",
+    "static/media/aboutimage.jpg": "/forecastly-react/static/media/aboutimage.489695132492c2a17361.jpg",
+    "static/media/commentimage.jpg": "/forecastly-react/static/media/commentimage.3becaea3d2e43c576523.jpg",
     "index.html": "/forecastly-react/index.html",
-    "main.7ced1153.css.map": "/forecastly-react/static/css/main.7ced1153.css.map",
-    "main.92a0fee3.js.map": "/forecastly-react/static/js/main.92a0fee3.js.map"
+    "main.b218cb45.css.map": "/forecastly-react/static/css/main.b218cb45.css.map",
+    "main.653a8751.js.map": "/forecastly-react/static/js/main.653a8751.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ced1153.css",
-    "static/js/main.92a0fee3.js"
+    "static/css/main.b218cb45.css",
+    "static/js/main.653a8751.js"
   ]
 }
